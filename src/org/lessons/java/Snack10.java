@@ -21,6 +21,9 @@ public class Snack10 {
 		System.out.println("Inserisci il secondo numero: ");
 		int number2 = in.nextInt();
 		
+//		Close Scanner
+		in.close();
+		
 //		Vars
 		int difference = number2 - number1;
 		int number = 0;
