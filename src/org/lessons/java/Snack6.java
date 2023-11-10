@@ -14,7 +14,7 @@ public class Snack6 {
 		
 //		Comparison Array
 		int[] intNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-		char[] stringNumbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+		char[] stringNumbers = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
 		
 //		Support Var
 		int number = 0;
@@ -31,7 +31,7 @@ public class Snack6 {
 
 			for(int y = 0; y < stringNumbers.length; y++) {
 				if(stringNumbers[y] == singleChar) {
-					number =  number * 10 + intNumbers[y]-1;
+					number =  number * 10 + intNumbers[y];
 				}
 			}
 		}
