@@ -14,12 +14,14 @@ public class Snack1 {
 		String input = in.nextLine();
 		int number = Integer.valueOf(input);
 		
+//		Close Scanner
+		in.close();
+		
 //		Calc even/odd and print
 		if((number %2) == 0) {
 			System.out.println("Il numero " + number + " è pari!");	
 		} else {
 			System.out.println("Il numero successivo è " + (number + 1));
 		}
-		
 	}
 }
